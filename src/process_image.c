@@ -96,7 +96,7 @@ void clamp_image(image im)
             }
         }
     }
-    //nope, it's O(n^2)
+    
 }
 
 
@@ -154,10 +154,7 @@ void rgb_to_hsv(image im)
 
 void hsv_to_rgb(image im)
 {
-    /*The function isn't perfect!
-    My transform function saturates
-    image slightly more than the one
-    in the course. */
+
 
     int x;
     int y; 
