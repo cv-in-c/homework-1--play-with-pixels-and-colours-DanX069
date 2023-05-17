@@ -63,8 +63,5 @@ def save_image(im, f):
     return save_image_lib(im, f.encode('ascii'))
 
 if __name__ == "__main__":
-    im = load_image("data/dog.jpg")
+    im = load_image("data/self.jpg")
     save_image(im, "hey")
-
-    
-
